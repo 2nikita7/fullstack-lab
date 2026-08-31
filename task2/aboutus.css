@@ -1,0 +1,81 @@
+/* Element Selector */
+
+body {
+background-color: #eaf2f8;
+font-family: Arial;
+padding: 20px;
+}
+
+p {
+color: rgb(60, 60, 60);
+line-height: 1.5;
+}
+
+/* Class Selector */
+
+.container {
+width: 80%;
+margin: auto;
+background-color: white;
+padding: 20px;
+}
+
+.heading {
+color: #2471a3;
+}
+
+/* ID Selector */
+
+#main-heading {
+text-align: center;
+color: rgb(30, 80, 120);
+}
+
+/* About Section */
+
+.about {
+background-color: #d6eaf8;
+padding: 10px;
+}
+
+/* Ordered List */
+
+.journey-list {
+background-color: #fef9e7;
+padding: 25px;
+}
+
+.journey-list li {
+margin: 8px;
+}
+
+/* Unordered List */
+
+.skills-list {
+background-color: rgb(232, 248, 245);
+padding: 25px;
+}
+
+.skills-list li {
+margin: 8px;
+}
+
+/* Goal Section */
+
+.goal {
+background-color: #ebdef0;
+padding: 10px;
+}
+
+/* Link and Pseudo-class */
+
+a {
+background-color: #2471a3;
+color: white;
+padding: 10px;
+text-decoration: none;
+}
+
+a:hover {
+background-color: rgb(20, 70, 100);
+}

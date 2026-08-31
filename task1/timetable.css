@@ -1,0 +1,35 @@
+body {
+    font-family: Arial;
+    background-color: rgb(222, 236, 241);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(15, 15, 153);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: lightcyan;
+}
+
+td:hover {
+    background-color: lightyellow;
+}
