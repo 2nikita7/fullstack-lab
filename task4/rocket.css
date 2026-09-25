@@ -1,0 +1,198 @@
+```css
+/* Basic styling */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: #172554;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+    margin: 0 8px;
+
+    /* Hover transition */
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #7dd3fc !important;
+    transform: translateY(-2px);
+}
+
+
+/* Hero Section */
+
+.hero {
+    min-height: 500px;
+    background: linear-gradient(135deg, #172554, #2563eb);
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+
+/* Rocket */
+
+.rocket {
+    font-size: 90px;
+
+    /* Keyframe animation */
+    animation: flyRocket 4s ease-in-out infinite;
+}
+
+
+/* Rocket Animation */
+
+@keyframes flyRocket {
+
+    0% {
+        transform: translateY(30px) rotate(-5deg);
+    }
+
+    50% {
+        transform: translateY(-40px) rotate(5deg);
+    }
+
+    100% {
+        transform: translateY(30px) rotate(-5deg);
+    }
+
+}
+
+
+/* Button */
+
+.explore-btn {
+    background-color: white;
+    color: #172554;
+
+    border: none;
+    padding: 10px 22px;
+
+    border-radius: 6px;
+
+    transition: 0.3s;
+}
+
+.explore-btn:hover {
+    background-color: #7dd3fc;
+    transform: scale(1.05);
+}
+
+
+/* Cards */
+
+.space-card {
+    background-color: white;
+
+    padding: 25px;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+
+    transition: 0.3s;
+}
+
+.space-card:hover {
+    transform: translateY(-8px);
+}
+
+.space-icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+
+/* Astronaut */
+
+.astronaut {
+    font-size: 70px;
+
+    animation: astronautMove 5s linear infinite;
+}
+
+
+/* Astronaut Animation */
+
+@keyframes astronautMove {
+
+    0% {
+        transform: translateX(-20px);
+    }
+
+    50% {
+        transform: translateX(20px);
+    }
+
+    100% {
+        transform: translateX(-20px);
+    }
+
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #172554;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 18px;
+
+    margin-top: 40px;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    .hero {
+        text-align: center;
+        min-height: 600px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .rocket {
+        font-size: 70px;
+        margin-top: 30px;
+    }
+
+}
+```
