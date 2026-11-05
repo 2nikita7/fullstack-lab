@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Array Tasks</title>
+</head>
+<body>
+
+    <h2>Task 1: Sum and Average</h2>
+    <p id="result1"></p>
+
+    <h2>Task 2: Count Even and Odd Numbers</h2>
+    <p id="result2"></p>
+
+    <script>
+        // Task 1: Calculate sum and average
+        let arr = [10, 20, 30, 40, 50];
+        let sum = 0;
+
+        for (let i = 0; i < arr.length; i++) {
+            sum = sum + arr[i];
+        }
+
+        let average = sum / arr.length;
+
+        document.getElementById("result1").innerHTML =
+            "Array: " + arr +
+            "<br>Sum = " + sum +
+            "<br>Average = " + average;
+
+
+        // Task 2: Count even and odd numbers
+        let numbers = [12, 7, 9, 24, 31, 46, 18];
+        let even = 0;
+        let odd = 0;
+
+        for (let i = 0; i < numbers.length; i++) {
+            if (numbers[i] % 2 == 0) {
+                even++;
+            } else {
+                odd++;
+            }
+        }
+
+        document.getElementById("result2").innerHTML =
+            "Array: " + numbers +
+            "<br>Even numbers = " + even +
+            "<br>Odd numbers = " + odd;
+    </script>
+
+</body>
+</html>
